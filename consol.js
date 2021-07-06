@@ -43,23 +43,41 @@
 // var num = 101.2255
 // console.log(num.toPrecision(4));
 
-//prompt: getting input from user
-console.log("welcome to the store !");
-console.log("we offer coffee for 2$ each and cookies for 1$ each ");
-var q1 = prompt("how many cup of coffes would you like to have ? ",);
-var q2 = prompt("how many cookies would you like ? ",);
-var q3 = prompt("how much tip would you like to leave ? ",);
+// //prompt: getting input from user
+// console.log("welcome to the store !");
+// console.log("we offer coffee for 2$ each and cookies for 1$ each ");
+// var q1 = prompt("how many cup of coffes would you like to have ? ",);
+// var q2 = prompt("how many cookies would you like ? ",);
+// var q3 = prompt("how much tip would you like to leave ? ",);
 
-q1 = parseInt(q1);
-q2 = parseInt(q2);
-q3 = parseInt(q3);
+// q1 = parseInt(q1);
+// q2 = parseInt(q2);
+// q3 = parseInt(q3);
 
-var c1 = q1 * 2;
-var c2 = q2 * 1;
-var taxes = (q1 + q2) * 0.1;
-var total = c1 + c2 + q3 + taxes;
- console .log("you have ordered " + q1 + " cofees for the total of " + c1 + "$");
- console .log("you have ordered " + q2 + " cookies for the total of " + c2 + "$");
- console.log(taxes + "$ for taxes")
- console .log("you have left " + q3 + "$ for your tip ")
- console.log( " the total of your bill is " + total + "$ with taxes");
+// var c1 = q1 * 2;
+// var c2 = q2 * 1;
+// var taxes = (q1 + q2) * 0.1;
+// var total = c1 + c2 + q3 + taxes;
+//  console .log("you have ordered " + q1 + " cofees for the total of " + c1 + "$");
+//  console .log("you have ordered " + q2 + " cookies for the total of " + c2 + "$");
+//  console.log(taxes + "$ for taxes")
+//  console .log("you have left " + q3 + "$ for your tip ")
+//  console.log( " the total of your bill is " + total + "$ with taxes");
+
+
+
+// Arrays
+var q1 = ["Pink", "Blue", "Red", "Geen", "Yellow"];
+console.log(q1);
+var a1 = q1[0];
+q1[1] = "black";
+// console.log(q1);
+// console.log(a1)
+
+console.log("my favorite color is "+ q1[1]);
+
+var q2 = ["red", 3, true, false, 10.4];
+console.log("this is "+ q2[2]);
+
+cal = q2[1] + q2[4];
+console.log(cal);
