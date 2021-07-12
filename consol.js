@@ -67,17 +67,44 @@
 
 
 // Arrays
-var q1 = ["Pink", "Blue", "Red", "Geen", "Yellow"];
-console.log(q1);
-var a1 = q1[0];
-q1[1] = "black";
+// var q1 = ["Pink", "Blue", "Red", "Geen", "Yellow"];
+// console.log(q1);
+// var a1 = q1[0];
+// q1[1] = "black";
 // console.log(q1);
 // console.log(a1)
 
-console.log("my favorite color is "+ q1[1]);
+// console.log("my favorite color is "+ q1[1]);
 
-var q2 = ["red", 3, true, false, 10.4];
-console.log("this is "+ q2[2]);
+// var q2 = ["red", 3, true, false, 10.4];
+// console.log("this is "+ q2[2]);
 
-cal = q2[1] + q2[4];
-console.log(cal);
+// cal = q2[1] + q2[4];
+// console.log(cal);
+
+// function
+
+// function food(p){
+//     console.log("i love to eat ", p);
+// }
+// food("pizza");
+
+// function order(quantity, price){
+//     console.log("i would like to have " + quantity + " pizzas");
+//     console.log("each slice cost " + price + " dollars");
+//     console.log("the total of my bill is " + quantity * price); 
+// }
+
+// order(3, 2)
+var q1 = prompt("select a name :");
+var q2 = prompt("delecct a color :");
+var q3 = prompt("select a number :");
+var q4 = prompt("select a number :");
+
+function operation(name, color, num1, num2){
+    console.log("seleceted name is "+ name);
+    console.log("seleceted color is "+ color);
+    console.log("seleceted 1st namber is "+ num1);
+    console.log("seleceted 2nd number is "+ num2);
+}
+operation(q1,q2,q3,q4);
